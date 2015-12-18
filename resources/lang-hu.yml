@@ -1,0 +1,127 @@
+language: "hu"
+
+#Hungarian language pack (hu) created by kdani
+
+#############################
+
+# Messages for commands
+
+#############################
+
+messages:
+   # Add helper
+   addhelper-desc: "Játékos hozzáadása a telekhez"
+   addhelper-alias: addh
+   addhelper-usage: "/p addhelper <játékosnév>"
+   addhelper-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   addhelper-notowner: "Ez a telek nem a tiéd"
+   addhelper-alreadyone: " már hozzá van adva ehhez a telekhez"
+   addhelper-success: " sikeresen hozzáadva ehhez a telekhez"
+   addhelper-error: "Nem lehet hozzáadni"
+
+   # Remove Helper
+
+   removehelper-desc: "Játékos eltávolítása erröl a telekröl"
+   removehelper-alias: delh
+   removehelper-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   removehelper-notowner: "Ez nem a te telked"
+   removehelper-notone: " Nincs hozzáadva"
+   removehelper-success: " Sikeresen eltávolítva erröl a telekröl"
+   removehelper-error: "Nem lehet eltávolítani"
+
+   # Claim
+
+   claim-desc: "Azon telek lefoglalása amelyen állsz"
+   claim-alias: c
+   claim-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   claim-notowner: "Ez a telek nem a te tulajdonod"
+   claim-already: "Ennek a teleknek a tulajdonosa "
+   claim-max: "Nem lehet több telked"
+   claim-money: "Nincs elég pénzed hogy megvedd ezt a telket"
+   claim-success: "Telek lefoglalva"
+   claim-error: "Ezt a telket nem lehet lefoglalni"
+
+   # Auto
+
+   auto-desc: "A lekgözelebbi üres telekhez teleportál"
+   auto-alias: a
+   auto-notinworld: "Nem a telekvilágban vagy"
+   auto-success: "Teleportálva ide "
+   auto-error: "Az összes telek foglalt"
+
+   # Dispose
+
+   dispose-desc: "Telek leadása"
+   dispose-alias: d
+   dispose-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   dispose-notowner: "Ez a telek nem a te tulajdonod"
+   dispose-money: "Nincs elég pénzed hogy leadd ezt a telket"
+   dispose-success: "Telek sikeresen leadva"
+   dispose-error: "Ezt a telket nem lehet leadni"
+
+   # Reset
+
+   reset-desc: "Telek leadása és törlése"
+   reset-alias: r
+   reset-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   reset-notowner: "Ez a telek nem a te tulajdonod"
+   reset-money: "Nincs elég pénzed hogy töröld ezt a telket"
+   reset-success: "Telek sikeresen törölve"
+   reset-error: "Ezt a telket nem lehet törölni"
+
+   # Clear
+
+   clear-desc: "Telek letakarítása"
+   clear-alias: cl
+   clear-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   clear-notowner: "Ez a telek nem a te tulajdonod"
+   clear-money: "Nincs elég pénzed hogy letakarítsd ezt a telket"
+   clear-success: "Telek letakarítva"
+   clear-error: "Ezt a telket nem lehet letakarítani"
+
+   # Biome
+
+   biome-desc: "Telek környezetének megváltoztatása"
+   biome-alias: a
+   biome-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   biome-notowner: "Ez a telek nem a te tulajdonod"
+   biome-success: "Telek környezete sikeresen megváltoztatva"
+   biome-invalid: "Nincs ilyen környezet"
+   biome-possible: "Lehetséges környezetek: "
+   biome-error: "Ennek a teleknek nem lehet megválzoztatni a környzetét"
+
+   # Name
+
+   name-desc: "Telek nevének beállítása vagy megváltoztatása"
+   name-alias: n
+   name-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   name-notowner: "Ez a telek nem a te tulajdonod"
+   name-success: "Telek neve megváltoztarva erre "
+   name-error: "A telek neve nem változtatható meg"
+
+   # Home
+
+   home-desc: "Utazás a telkedre"
+   home-alias: h
+   home-noplots: "Nincs telked"
+   home-notexist: "Nincs telked ezzel a névvel "
+   home-success: "Utazás ide "
+   home-error: "Erre a telekre nem lehet utazni"
+
+   # Info
+
+   info-desc: "Információk a telekröl"
+   info-alias: i
+   info-notinplot: "Nem vagy egyetlen teleknek sem a területén"
+   info-about: "Információk erröl "
+   info-name: "Név: "
+   info-owner: "Tulajdonos: "
+   info-helpers: "Hozzáadva: "
+   info-biome: "Környezet: "
+
+   # List
+
+   list-desc: "A telkeid listája"
+   list-alias: l
+   list-noplots: "Nincs telked"
+   list-plots: "Telkeid"
